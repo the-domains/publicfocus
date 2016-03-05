@@ -1,28 +1,40 @@
-name: PublicFocus
 favicon: null
-layout_spectrum: 0.1929176168050617
-typography_spectrum: 0.3832446434535086
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: PublicFocus
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5343716
+  brandStrength: 0.9936729844193906
+  lightness: 0.6063373
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
-  brandStrength: 0.9936729844193906
-  lightness: 0.3949493831023574
-  saturation: 0.07483276235871017
-  rhythmicContrast: 0.46230477397330105
-purpose: []
+  rhythmicContrast: 0.8125672
+typography_spectrum: 0.6450054
+layout_spectrum: 0.9962406
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
